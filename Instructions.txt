@@ -1,0 +1,39 @@
+User Guide for FIB-SEM Image Denoising Code
+===========================================
+
+1. Requirements
+---------------
+- Python 3.6
+- Required packages (install via pip):
+    matplotlib==3.7.5
+    numpy==1.24.4
+
+Install dependencies:
+    pip install -r requirements.txt
+
+2. Files in the package
+-----------------------
+- main_train_dncnn.py.py          # Script to train the  denoising model
+- data        # Script to apply the trained model on test images
+- models          
+- requirements.txt  # Python dependencies
+- options        
+- utils               
+- WGan_clean_avizo_jpg_241    # clean image
+- WGan_train_dir_jpg_241    # Noisy image
+- output_example/   # Folder with example output results
+
+3. How to run the code
+----------------------
+Step 1: Prepare the environment  
+Install Python and required packages (see Requirements).
+
+Step 2: Prepare the dataset: clean images and noisy images
+           
+Step 3: Change the path of the dataset in the JSON file under options 
+Generate denoising model
+
+Step 4: Run main_train_dncnn.py 
+
+Step 5: Generate denoising model
+
